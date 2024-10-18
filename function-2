@@ -1,0 +1,10 @@
+<?php
+
+function evenOrOdd($x){
+  if($x % 2== 0){
+    return "even number";
+  }
+  return "odd number";
+};
+$x=12;
+echo evenOrOdd($x);
